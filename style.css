@@ -33,7 +33,7 @@ body {
     padding: 0 10px;
     position: absolute;
     left:50%;
-    top:400px;
+    top:370px;
     transform: translateX(-50%);
     background: black;
     font-size: clamp(11px, 2px, 14px);
