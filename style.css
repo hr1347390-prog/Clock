@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  border-radius: 25px;
+  font-size: 90px;
+  color: #fc3838;
+  border: 4px solid;
+  border-image: linear-gradient(45deg, pink, orange) 1;
+
+}
+
+.clock span {
+  margin: 0 5px;
+}
+
+.AMPM {
+  font-size: 30px;
+  margin-left: 15px;
+  align-self: flex-end;
+}
+.text {
+    padding: 0 10px;
+    position: absolute;
+    left:50%;
+    top:400px;
+    transform: translateX(-50%);
+    background: black;
+    font-size: clamp(11px, 2px, 14px);
+    color: #fd3e3e;
+}
